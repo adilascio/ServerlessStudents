@@ -38,3 +38,7 @@ Content-Type: application/json
 ###
 
 DELETE {{HostAddress}}/api/students/113
+
+###
+
+GET {{HostAddress}}/api/WhoAmI
