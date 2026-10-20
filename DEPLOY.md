@@ -42,9 +42,12 @@ Every push to `main` now builds and deploys. Watch the run under the repo's **Ac
 
 ## 5. Verify
 
+Use the **Default domain** shown on the Function App's Overview page (new apps get a unique
+hostname like `<app-name>-<random>.canadacentral-01.azurewebsites.net`):
+
 ```
-https://<app-name>.azurewebsites.net/api/WhoAmI
-https://<app-name>.azurewebsites.net/api/students
+https://<default-domain>/api/WhoAmI
+https://<default-domain>/api/students
 ```
 
 If the Azure SQL server rejects the connection, it needs a firewall rule allowing Azure services.
